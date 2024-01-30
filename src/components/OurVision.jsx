@@ -1,8 +1,8 @@
 const OurVision = () => {
     return (
       <section className="  bg-[pink] bg-opacity-20 ">
-           <div className="m-20  flex justify-around p-5">
-           <div className="w-[50%] mt-9">
+           <div className="sm:m-20  lg:flex justify-around p-5">
+           <div className="lg:w-[50%] sm:mt-9">
           <p className="leading-10">Our Vision</p>
           <h1 className="text-4xl leadding-10">Lighting the Path to </h1>
           <br />
@@ -14,7 +14,7 @@ const OurVision = () => {
           
   
       </div>
-      <div className="w-[50%] ml-20 p-20">
+      <div className="lg:w-[50%] md:w-2/4 md:ml-52 mt-9 sm:ml-20  lg:ml-20 lg:p-20">
           <img src="/assets/ourvision.jpg" className="rounded-3xl" alt="" />
       </div>
            </div>

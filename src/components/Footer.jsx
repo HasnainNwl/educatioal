@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
      <section >
-      <div className="grid grid-cols-4  p-9">
+      <div className="lg:grid lg:grid-cols-4  p-9">
       <div>
               <div className="flex">
                   <a href="#" className="flex">
@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
       </div>
       <div>
-          <div>
+          <div className="mt-5">
              <h1 className="text-2xl font-bold mb-5" >Menu</h1>
              <ul className="leading-7">
                <li>Team</li>
@@ -45,9 +45,9 @@ const Footer = () => {
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet repellat nemo veritatis autem, dolorum at .</p>
           </div>
       </div>
-      <div>
-          <h1 className="text-2xl font-bold mb-5 ml-5">Tools for College Students</h1>
-          <ul className="ml-5 leading-7">
+      <div className="">
+          <h1 className="text-2xl font-bold mb-5 lg:ml-5">Tools for College Students</h1>
+          <ul className="lg:ml-5 leading-7">
               <li>Study Planner</li>
               <li>GPA Calculator</li>
               <li>Rasie your GPA</li>
@@ -62,13 +62,13 @@ const Footer = () => {
           </ul>
       </div>
       <div>
-          <div className="ml-7">
+          <div className="lg:ml-7">
             <h1 className="text-2xl font-bold mb-5 ">Contact us </h1>
             <p>Phone: +92 (03) 47 88 76 884 Need help</p>
             <p>or have a qustion? Email:</p>
             <p>hasnainnwl@gmail.com</p>
           </div>
-          <div className="ml-7">
+          <div className="lg:ml-7">
             <h1 className="text-2xl font-bold mb-5 mt-20">Address</h1>
            <div className="mt-16">
             <p>809 Custa Dr Suite B PMB 1190</p>
@@ -76,8 +76,8 @@ const Footer = () => {
             <p>States</p>
            </div>
           </div>
-          <h1 className="text-3xl  font-bold mt-9 ml-7">Resources</h1>
-          <h1 className="text-xl font-bold mt-9 ml-7">Sitemap</h1>
+          <h1 className="text-3xl  font-bold mt-9 lg:ml-7">Resources</h1>
+          <h1 className="text-xl font-bold mt-9 lg:ml-7">Sitemap</h1>
           
           
   

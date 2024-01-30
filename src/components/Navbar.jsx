@@ -2,15 +2,15 @@
 const Navbar = () => {
     return (
       <section>
-          <div className="flex gap-3  justify-between mx-9">
-              <div className="flex m-4">
+          <div className="flex lg:gap-3 md:gap-60 gap-20    lg:justify-between  ">
+              <div className="flex lg:m-4 m-1">
                   <a href="#" className="flex">
                    <img src="/assets/cap.png" alt="" />
-                   <p className="text-base font-serif mt-5 ml-5 " style={{'fontFamily':"sans-serif"}}>Back 2 <br />College</p>
+                   <p className="text-base font-serif lg:mt-5 lg:ml-5 mt-4" style={{'fontFamily':"sans-serif"}}>Back 2 <br />College</p>
                    </a>
               </div>
-              <div className="mt-9 mr-6">
-                  <ul className="flex gap-x-9 items-end">
+              <div className="lg:mt-9 lg:mr-6 ">
+                  <ul className="lg:flex lg:gap-x-9  items-end hidden  ">
                       <li><a href="#">Careers</a></li>
                       <li><a href="#">Study Tips </a></li>
                       <li><a href="#">Colleges </a></li>
@@ -19,10 +19,12 @@ const Navbar = () => {
                       <li><a href="#"> More</a></li>
                   </ul>
               </div>
-              <div className="flex gap-2 mt-7 ">
-              <img className="h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABnElEQVRIS92VOy9EQRiGdxMFiR/gB5C4hBAKrUQhLqVbKDQKiYJCIaFwKRQSREOUCJaOIFGoBSFuUYhsqRSVQuF5kznJyZo5c9izjZM8OZs5M98z8818s+lUgZ90geOnogSVyAegHprhE67gGg7gOc7kbIISBo4Yyh1BXmlfhzX4iBLZBJsMGDSDdnnvmZmrqQl6oc98P+XdBV8uSa5glI6r8A7DJhW2sZ00bkAZTMBiHIFyfgml0B0RPIglySFobxrAuifhFczRaQqUln7XjHLad0y6pnnP28aEBRkzc+V/O6ZAp2wL9qHHJ3ikQzXUwX1MQS397uAJanyCB9PpL4IXxlb4BPmk6ITg7T5BPpu8TPBxn0DH9AaKQcVz5NmHVr6fgY5pFWR9An0fgyV4AxWaS6LgqngVmopMxWZ9bFeF8tlmevuuCnVTgbWYSf2Q2ARFZiXaE6XL9igtuug0EaXWKfnNdS2RjvItrEDWpOg8SpLEH04jghnogGOYhYtg2UkIFEubHaxkkt8LSQsCyVA4uBqTWoHjLPwHwTc79VMZBk8miAAAAABJRU5ErkJggg=="/>
-                  <button className="bg-[#3d3de6] text-[white] w-40 h-9 rounded">Search Programs</button>
-              </div>
+              <div className='grid grid-cols-2 mt-5  sm:w-[115px] mr-28'>
+                  <a href="#"  rel="noopener noreferrer">
+                  <box-icon className=' h-10 lg:h-[79%] hover:cursor-pointer' size="lg"  name='search'></box-icon>
+                    </a>                 
+                  <button className="bg-[#3d3de6] text-[white] lg:w-40 lg:h-9 h-9 w-32 sm:w-40 rounded">Search Programs</button>
+                </div> 
           </div>
       </section>
     )

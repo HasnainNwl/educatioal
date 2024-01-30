@@ -1,25 +1,25 @@
 const Testimonials = () => {
     return (
-      <section className=" flex p-9 bg-[pink] bg-opacity-20 mt-20 w-full">
-          <div className="items-center w-2/4 ml-9">
+      <section className=" lg:flex p-9 bg-[pink] bg-opacity-20 mt-20 w-full">
+          <div className="items-center lg:w-2/4 sm:ml-9">
               <h1 className="font-bold mt-5">Testimonials</h1>
-              <h1 className="text-4xl font-bold mt-5">What Our</h1>
-              <h1 className="text-4xl font-bold mt-5 text-[#d1485f]">Clients Are Saying</h1>
+              <h1 className=" text-xl sm:text-4xl font-bold mt-5">What Our</h1>
+              <h1 className="text-2xl sm:text-4xl font-bold mt-5 text-[#d1485f]">Clients Are Saying</h1>
               <br />
               <q className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptatem aspernatur minus? Earum, quia. Iusto rem error deserunt tempora neque perspiciatis ullam ipsam nulla eum tenetur dignissimos iste quos saepe illo perferendis, .</q>
           </div>
-          <div className="w-2/4 ml-5">
+          <div className="lg:w-2/4 ml-5">
               <div className="flex justify-arounded h-52 shadow-xl bg-[white] border-s-8 border-[hsl(347,72%,72%)] rounded-xl mt-16">
-                  <div className="mt-7  ">
-                  <img src="/assets/female1.jpg" className="w-20 rounded-full ml-4 " alt="" />
-                  <div className="mt-5 ml-5  ">
+                  <div className="mt-7 md:mt-2 ">
+                  <img src="/assets/pro.jpg" className="w-10 sm:w-20 border-white  border-2 rounded-full ml-4 " alt="" />
+                  <div className="lg:mt-5 lg:ml-5 ml-5 md:ml-9 sm:ml-9  ">
                   <span className="font-bold ">Anna Stokes</span>
-                  <p className="ml-5">Student</p>
+                  <p className="lg:ml-5   mx-auto">Student</p>
                   </div>
                   </div>
                   <div className="m-5">
-                  <h1 className="text-2xl font-bold leading-10">College Companion</h1>
-                  <q className="text-gray-700">Navigation higher education  as an adult was made easy <br /> with Back2College.</q>
+                  <h1 className= "sm:text-2xl font-bold leading-10">College Companion</h1>
+                  <q className="text-gray-700 ">Navigation higher education  as an adult was made easy <br /> with Back2College.</q>
                   <br />
                   <br />
                   <div className="flex fill-[#facc15]">
