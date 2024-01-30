@@ -24,13 +24,13 @@ const TeamMembers = () => {
               <div className="flex justify-between">
               <div className="flex justify-between sm:gap-2 ">
                   <a href="https://www.instagram.com/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='instagram' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='instagram' size='lg' sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.linkedin.com/feed/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='linkedin-square' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='linkedin-square' size='lg' sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.youtube.com/" target="blank" className= " sm:bg-slate-500 p-1 rounded-full" >
-                  <box-icon type='logo' name='youtube' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='youtube' size='lg' sm:size='lg'></box-icon>
                   </a>
                   
                  
@@ -58,13 +58,13 @@ const TeamMembers = () => {
               <div className="flex justify-between">
               <div className="flex justify-between sm:gap-2 ">
                   <a href="https://www.instagram.com/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='instagram' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='instagram' size='lg' sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.linkedin.com/feed/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='linkedin-square' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='linkedin-square' size='lg' sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.youtube.com/" target="blank" className= " sm:bg-slate-500 p-1 rounded-full" >
-                  <box-icon type='logo' name='youtube' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='youtube' size='lg' sm:size='lg'></box-icon>
                   </a>
                   
                  
@@ -92,13 +92,13 @@ const TeamMembers = () => {
               <div className="flex justify-between">
               <div className="flex justify-between sm:gap-2 ">
                   <a href="https://www.instagram.com/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='instagram' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='instagram' size='lg' sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.linkedin.com/feed/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='linkedin-square' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='linkedin-square' size='lg' sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.youtube.com/" target="blank" className= " sm:bg-slate-500 p-1 rounded-full" >
-                  <box-icon type='logo' name='youtube' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='youtube' size='lg' sm:size='lg'></box-icon>
                   </a>
                   
                  
@@ -126,13 +126,13 @@ const TeamMembers = () => {
               <div className="flex justify-between">
               <div className="flex justify-between sm:gap-2 ">
                   <a href="https://www.instagram.com/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='instagram' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='instagram' size='lg' sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.linkedin.com/feed/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='linkedin-square' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='linkedin-square' size='lg' sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.youtube.com/" target="blank" className= " sm:bg-slate-500 p-1 rounded-full" >
-                  <box-icon type='logo' name='youtube' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='youtube' size='lg' sm:size='lg'></box-icon>
                   </a>
                   
                  
@@ -158,21 +158,21 @@ const TeamMembers = () => {
               <hr />
               <br />
               <div className="flex justify-between">
-              <div className="flex justify-between sm:gap-2 ">
+              <div className="flex justify-between  sm:gap-2 ">
                   <a href="https://www.instagram.com/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='instagram' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='instagram' size="lg" sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.linkedin.com/feed/" target="blank" className="sm:bg-slate-500 rounded-full p-1">
-                  <box-icon type='logo' name='linkedin-square' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='linkedin-square' size="lg" sm:size='lg'></box-icon>
                   </a>
                   <a href="https://www.youtube.com/" target="blank" className= " sm:bg-slate-500 p-1 rounded-full" >
-                  <box-icon type='logo' name='youtube' sm:size='lg'></box-icon>
+                  <box-icon type='logo' name='youtube' size='lg' sm:size='lg'></box-icon>
                   </a>
                   
                  
                   </div>
              
-                  <button className="bg-[#3d3de6] text-[white]   sm:p-3 w-24 sm:w-28 mx-3 rounded">View Blog</button>
+                  <button className="bg-[#3d3de6] text-[white] lg:p-3    sm:p-3 w-24 sm:w-28 mx-3 rounded">View Blog</button>
   
               </div>
           </div>
