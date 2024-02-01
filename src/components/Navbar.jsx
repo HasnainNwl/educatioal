@@ -21,7 +21,7 @@ const Navbar = () => {
               </div>
               <div className='grid grid-cols-2 mt-5  sm:w-[115px] mr-28'>
                   <a href="#"  rel="noopener noreferrer">
-                  <box-icon className=' h-10 lg:h-[79%] hover:cursor-pointer' size="lg"  name='search'></box-icon>
+                  <box-icon className=' hover:cursor-pointer' size="md"  name='search'></box-icon>
                     </a>                 
                   <button className="bg-[#3d3de6] text-[white] lg:w-40 lg:h-9 h-9 w-32 sm:w-40 rounded">Search Programs</button>
                 </div> 

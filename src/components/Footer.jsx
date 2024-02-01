@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
      <section >
-      <div className="lg:grid lg:grid-cols-4  p-9">
+      <div className="lg:grid lg:grid-cols-4 grid-cols-2  p-9">
       <div>
               <div className="flex">
                   <a href="#" className="flex">

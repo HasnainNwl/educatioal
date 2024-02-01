@@ -5,7 +5,7 @@ const Newsletter = () => {
               <h1 className=" text-[white] text-4xl font-bold ">JOIN OUR NEWSLETTER</h1>
               <p className="text-[white] font-bold mt-2">Subscribe to our newsletter to recive the latest news & updates.</p>
               <div className="flex gap-3 text-center mt-5 lg:ml-80 ">
-                  <input type="email" placeholder="Your email Address" className="lg:w-2/4 w-full p-2 rounded" />
+                  <input type="email" placeholder="Email Address" className="lg:w-2/4 w-full p-2 rounded" />
                   <button className="text-[white] bg-[hsl(0,86%,60%)] lg:w-[15%] w-72 text-center rounded">Subcribe</button>
               </div>
   
